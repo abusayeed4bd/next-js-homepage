@@ -222,14 +222,27 @@ const Home = () => {
               </div>
 
 
-              <div className="flex justify-between items-center py-4 mx-3">
-              <h4 className="text-[22px] font-semibold text-white">Your Bets</h4>
-              <span className="text-xl text-white bg-secondary p-1 rounded" ><BsFillGearFill /></span>
+              <div className="border-b border-white pb-4">
+                <div className="flex justify-between items-center py-4 mx-3">
+                  <h4 className="text-[22px] font-semibold text-white">Your Bets</h4>
+                  <span className="text-xl text-white bg-secondary p-1 rounded" ><BsFillGearFill /></span>
 
+                </div>
+                <div className="bg-light rounded-lg h-36 mx-3">
+
+                </div>
               </div>
-              <div className="bg-light rounded-lg  h-38 ">
-                      jfdk
+
+              <div className="mx-3">
+                <div className='flex items-center gap-2 my-2 '>
+                  <button className="bg-light px-2 rounded ">-</button>
+                  <input className="w-12 rounded bg-light" type="number" name="" id="" defaultValue='48' />
+                  <button className="bg-white bg-light px-2 rounded ">+</button>
+                </div>
+                <div></div>
               </div>
+
+
 
 
             </div>
